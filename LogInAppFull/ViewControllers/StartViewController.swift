@@ -88,15 +88,15 @@ class StartViewController: UIViewController {
 extension UIView {
     func addVerticalGradient() {
         let topColor = UIColor (
-            red: 170/255,
-            green: 100/255,
+            red: 240/255,
+            green: 140/255,
             blue: 230/255,
             alpha: 1
         )
         let bottomColor = UIColor (
-            red: 106/255,
+            red: 146/255,
             green: 148/255,
-            blue: 255/255,
+            blue: 180/255,
             alpha: 1
         )
         

@@ -22,7 +22,6 @@ class ProfileViewController: UIViewController {
     var city: String!
     var favPlace: String!
     
-    private let profile = Profile.getProfile()
     
     override func viewDidLayoutSubviews() {
         profilePic.layer.cornerRadius = profilePic.frame.height / 2
@@ -39,8 +38,15 @@ class ProfileViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let aboutVC = segue.destination as? BioViewController else { return }
+        aboutVC.about = """
+Переехал в Питер около 2 месяцев назад
+Почти сразу, как начались курсы.
+Этот город вдохновляет!
+Спасибо за курсы, твои шутки это топ!
+Советую хачапури и вино на петроградке :))
+    
+"""
         aboutVC.view.addVerticalGradient()
-        aboutVC.about = "hello"
     }
     
 }
