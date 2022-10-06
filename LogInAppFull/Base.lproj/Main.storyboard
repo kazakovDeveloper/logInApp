@@ -191,7 +191,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="880B7E9B-2EBA-4907-AC2F-0EF706C3CD24_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="LVt-qW-h6q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="880B7E9B-2EBA-4907-AC2F-0EF706C3CD24_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="LVt-qW-h6q">
                                 <rect key="frame" x="100" y="92" width="120" height="120"/>
                             </imageView>
                         </subviews>
@@ -202,10 +202,13 @@
                             <constraint firstItem="LVt-qW-h6q" firstAttribute="centerX" secondItem="l54-2G-qzp" secondAttribute="centerX" id="HgE-0c-wXc"/>
                             <constraint firstItem="LVt-qW-h6q" firstAttribute="leading" secondItem="jmg-jD-pc3" secondAttribute="leading" constant="100" id="NVS-w0-k8F"/>
                             <constraint firstItem="jmg-jD-pc3" firstAttribute="trailing" secondItem="xXp-Cd-46X" secondAttribute="trailing" constant="185" id="Oks-Un-TLA"/>
+                            <constraint firstItem="jmg-jD-pc3" firstAttribute="trailing" secondItem="LVt-qW-h6q" secondAttribute="trailing" constant="100" id="PP6-Sv-UN2"/>
+                            <constraint firstItem="LVt-qW-h6q" firstAttribute="top" secondItem="l54-2G-qzp" secondAttribute="top" constant="92" id="bES-5T-xUB"/>
                             <constraint firstItem="LVt-qW-h6q" firstAttribute="top" secondItem="l54-2G-qzp" secondAttribute="topMargin" constant="-0.5" id="bbk-Me-0Aa"/>
                             <constraint firstItem="xXp-Cd-46X" firstAttribute="top" secondItem="l54-2G-qzp" secondAttribute="top" constant="226" id="hbN-xx-fkD"/>
                             <constraint firstItem="jmg-jD-pc3" firstAttribute="bottom" secondItem="xXp-Cd-46X" secondAttribute="bottom" constant="91" id="jss-cW-put"/>
                             <constraint firstItem="xXp-Cd-46X" firstAttribute="top" secondItem="LVt-qW-h6q" secondAttribute="bottom" constant="14" id="kGs-rq-ghb"/>
+                            <constraint firstItem="xXp-Cd-46X" firstAttribute="top" secondItem="LVt-qW-h6q" secondAttribute="bottom" constant="14" id="qs5-DN-bAJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About:" id="sdG-qE-wik">
@@ -237,13 +240,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfi-h2-Yg0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfi-h2-Yg0">
                                 <rect key="frame" x="16" y="92.5" width="288" height="455.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
-                                            <font key="NSFont" size="30" name="BigCaslon-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <font key="NSFont" size="21" name="BigCaslon-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
