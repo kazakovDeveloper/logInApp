@@ -8,14 +8,14 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
-
-@IBOutlet var welcomeOutlet: UILabel!
-
-var greeting: String!
-
-override func viewDidLoad() {
-    super.viewDidLoad()
-    welcomeOutlet.text = ("hello👋🏽\(greeting ?? "please register")")
-}
+    
+    
+    @IBOutlet var welcomeOutlet: UILabel!
+    
+    var greeting: String!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        welcomeOutlet.text = ("hello👋🏽\(greeting ?? "please register")")
+    }
 }

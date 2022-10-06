@@ -8,7 +8,7 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
     @IBOutlet var profilePic: UIImageView!
     @IBOutlet var nameOutlet: UITextField!
     @IBOutlet var surnameOutlet: UITextField!

@@ -8,7 +8,7 @@
 import UIKit
 
 class BioViewController: UIViewController {
-
+    
     
     @IBOutlet var aboutLabel: UILabel!
     
